@@ -17,7 +17,7 @@
                     You are logged in!
                     <div class="alert alert-success" role="alert">
                         <a href="questions" class="alert-link">Questions</a>
-                        <i class="fas fa-address-book"></i>
+                        
                         
                       </div>
                 </div>
