@@ -106,6 +106,6 @@ class QuestionsController extends Controller
      */
     public function destroy(Question $question)
     {
-        //
+        // add function for delete
     }
 }
