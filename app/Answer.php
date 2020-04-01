@@ -35,7 +35,11 @@ class Answer extends Model
         // static::saved(function ($answer){
         //     echo "Answer saved\n";
         // });
+    }
 
+    public function getCreatedDateAttribute()
+    {
+        return $this->created_at->diffForHumans();
     }
 
 }
